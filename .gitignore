@@ -1,0 +1,44 @@
+# Archivos de entorno
+.env
+
+# Archivos creados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de VSCode
+.vscode/
+
+# Carpetas de entornos virtuales (si no usas Conda directamente)
+venv/
+.env/
+__pycache__/
+
+# Archivos temporales de Python
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de datos
+data/raw/
+data/processed/
+data/outputs/
+
+# Archivos grandes o intermedios
+*.log
+*.sqlite3
+*.h5
+
+# Archivos de Jupyter Notebook innecesarios
+.ipynb_checkpoints/
+
+# Dependencias compiladas
+*.so
+
+# Carpetas de pruebas
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py[cod]
+*.swp
